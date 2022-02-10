@@ -1,0 +1,7 @@
+extends layout.pug
+block content
+  div(class='main')
+    .container-sm 
+        h2 Jesteś Zalogowany
+        form(action="/login/wyloguj" method="POST")
+          button.btn.btn-primary(type='submit') Wyloguj

@@ -1,0 +1,11 @@
+extends layout.pug
+block content
+  div(class='main')
+    .container-sm 
+        h2 Logowanie
+        form(action="/login/zalogowano" method="POST")
+          .mb-3
+          input#Input.form-control(name='username' type='text', placeholder="Login")
+          .mb-3
+          input#InputPassword.form-control(name= 'password' type='password' placeholder="Hasło")
+          button.btn.btn-primary(type='submit') Zaloguj

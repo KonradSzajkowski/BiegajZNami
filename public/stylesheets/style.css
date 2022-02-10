@@ -1,0 +1,92 @@
+
+.moja {
+    color: red;
+}
+
+body, html {
+    height: 100%;
+  }
+  
+.main{
+    background-image: url("/images/runer.jpg");
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .main1{
+    background-image: url("/images/runer.jpg");
+    min-height: 100%;
+    background-position: center;
+    /* Center and scale the image nicely */
+    background-size: cover;
+    background-repeat: repeat-y;
+    
+    padding: 25px;
+  }
+.container-sm{
+    max-width: 500px !important;
+    border-radius: 25px;
+    background-color:#00000090;
+    border: 1px solid black;
+    padding-top: 30px;
+    text-align: center;
+    margin:5px !important;
+}
+
+.tresc,.tresc1{
+  border-radius: 25px;
+  background-color:#00000090;
+  border: 1px solid black;
+  padding: 20px;
+  text-align: center;
+  margin:25px;
+  color: #fff;
+}
+
+.tresc{
+  min-height: 400px;
+}
+
+img{
+  border-radius: 25px;
+  border: 1px solid black;
+}
+
+input{
+  background-color: #00000090 !important;
+  border-radius: 25px;
+  border: 1px solid black !important;
+  color:white !important;
+  margin-top:50px !important;
+}
+
+input:focus{
+  border-color: #333333 !important;
+  box-shadow: none !important;
+}
+
+label{
+  color: #ffffff;
+}
+
+h2{
+  color:white;
+}
+
+.btn.btn-primary{
+  float:right;
+  color: #ffffff;
+  background-color: #050505 !important;
+  border-radius: 5px;
+  border: 1px solid white !important;
+  margin-top:40px !important;
+  margin-bottom: 20px;
+}
+
